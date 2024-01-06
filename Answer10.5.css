@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container{
+    height:1000px;
+    width:1000px;
+    /* padding:20px; */
+    margin:20px;
+    display:grid;
+    grid-template-rows: repeat(3,1fr );
+    grid-template-columns:repeat(3,1fr ) ;
+    gap:10px;
+    border:2px solid rgb(255, 81, 0);
+    background-color: darkcyan;
+    justify-items:center;
+}
+.box{
+    background-color: rgb(27, 27, 48);
+    color:azure;
+    font-size: 50px;
+    border:2px solid red;
+   
+}
+.boxA{
+ justify-self:start;
+}

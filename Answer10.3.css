@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container{
+    height:1000px;
+    width:1000px;
+    margin:20px;
+    border:2px solid rgb(255, 81, 0);
+    background-color: darkcyan;
+    display:grid;
+    gap:10px;
+    grid-template-areas: "a a a a";
+    grid-template-rows: 250px;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 100px;
+}
+.box{
+    background-color: rgb(27, 27, 48);
+    color:azure;
+    font-size: 50px;
+    border:2px solid red;
+   
+}
